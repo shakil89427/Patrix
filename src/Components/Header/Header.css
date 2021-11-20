@@ -1,0 +1,21 @@
+.navbar {
+  box-shadow: 0 1px 10px;
+}
+.navbar-bg {
+  background-image: linear-gradient(
+    to right,
+    rgb(135, 42, 241),
+    rgb(233, 8, 184)
+  );
+}
+.nav-button:hover {
+  background-image: linear-gradient(
+    to right,
+    rgb(135, 42, 241),
+    rgb(233, 8, 184)
+  );
+  color: white;
+}
+.nav-button-icon {
+  background-color: blueviolet;
+}

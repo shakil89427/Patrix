@@ -1,0 +1,22 @@
+.banner-bg {
+  background-image: linear-gradient(
+    to right,
+    rgb(135, 42, 241),
+    rgb(233, 8, 184)
+  );
+}
+.banner-h1 {
+  font-size: 3em;
+  font-weight: 800;
+}
+.banner-icon {
+  background-color: cornflowerblue;
+}
+.banner-btn:hover {
+  background-image: linear-gradient(
+    to right,
+    rgb(135, 42, 241),
+    rgb(233, 8, 184)
+  );
+  color: white;
+}
