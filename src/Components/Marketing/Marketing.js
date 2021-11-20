@@ -10,7 +10,7 @@ const Marketing = () => {
         <Row>
           <Col className="my-auto py-5" sm={12} md={6} lg={6}>
             <h1 className="main-color">
-              <i class="fas fa-location-arrow"></i>
+              <i className="fas fa-location-arrow"></i>
             </h1>
             <h1 className="main-color">Marketing</h1>
             <p>

@@ -5,6 +5,8 @@ import Trusted from "./Components/Trusted/Trusted";
 import Ourservice from "./Components/Ourservice/Ourservice";
 import Marketing from "./Components/Marketing/Marketing";
 import Webdevelopment from "./Components/Webdevelopment/Webdevelopment";
+import Cloud from "./Components/Cloud/Cloud";
+import Faq from "./Components/Faq/Faq";
 
 function App() {
   return (
@@ -15,6 +17,8 @@ function App() {
       <Ourservice></Ourservice>
       <Marketing></Marketing>
       <Webdevelopment></Webdevelopment>
+      <Cloud></Cloud>
+      <Faq></Faq>
     </>
   );
 }
