@@ -1,0 +1,17 @@
+.main-color {
+  color: #5405b4;
+}
+.marketing-btn {
+  border: 1px solid #5405b4;
+}
+.marketing-btn:hover {
+  background-image: linear-gradient(
+    to right,
+    rgb(135, 42, 241),
+    rgb(233, 8, 184)
+  );
+  color: white;
+}
+.marketing-icon {
+  background-color: #5405b4;
+}

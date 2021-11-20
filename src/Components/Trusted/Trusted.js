@@ -14,7 +14,7 @@ const Trusted = () => {
       <h4 className="text-center mb-3">Trusted by campanies like</h4>
       <hr className="hr-1" />
       <hr className="hr-2" />
-      <Container className="mt-3 mx-auto">
+      <Container className="my-5 mx-auto">
         <Row>
           <Col className="trusted-img-col text-center" sm={12} md={4} lg={2}>
             <img className="trusted-img" src={company_1} alt="" />

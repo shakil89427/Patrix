@@ -9,7 +9,7 @@ const Banner = () => {
       <div className="banner-bg pt-4">
         <Container>
           <Row>
-            <Col className="text-white my-auto py-4" sm={12} md={6}>
+            <Col className="text-white my-auto py-4" sm={12} md={6} lg={6}>
               <h1 className="banner-h1 mb-4">Hey!, I'm Patrick</h1>
               <h5>
                 this is a multi-purpose responsive layout created with bootstrap
@@ -20,7 +20,7 @@ const Banner = () => {
                 <i className="banner-icon text-white ms-4 p-2 rounded-circle fas fa-arrow-right"></i>
               </button>
             </Col>
-            <Col sm={12} md={6}>
+            <Col sm={12} md={6} lg={6}>
               <img className="float-end img-fluid" src={logo} alt="" />
             </Col>
           </Row>
