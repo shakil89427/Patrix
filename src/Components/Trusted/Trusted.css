@@ -1,0 +1,23 @@
+.hr-1 {
+  width: 150px;
+  padding: 1px;
+  margin: 0 auto;
+  color: rgb(126, 6, 182);
+}
+.hr-2 {
+  width: 30px;
+  padding: 3px;
+  margin: 0 auto;
+  color: rgb(126, 6, 182);
+}
+/* .trusted-img-col {
+    
+} */
+.trusted-img {
+  height: 60px;
+  width: 200px;
+  padding: 10px 20px;
+}
+.trusted-img:hover {
+  filter: grayscale(100%);
+}
