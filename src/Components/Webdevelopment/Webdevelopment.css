@@ -1,0 +1,14 @@
+.web-btn {
+  border: 1px solid #5405b4;
+}
+.web-btn:hover {
+  background-image: linear-gradient(
+    to right,
+    rgb(135, 42, 241),
+    rgb(233, 8, 184)
+  );
+  color: white;
+}
+.web-icon {
+  background-color: #5405b4;
+}

@@ -4,6 +4,7 @@ import Banner from "./Components/Banner/Banner";
 import Trusted from "./Components/Trusted/Trusted";
 import Ourservice from "./Components/Ourservice/Ourservice";
 import Marketing from "./Components/Marketing/Marketing";
+import Webdevelopment from "./Components/Webdevelopment/Webdevelopment";
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <Trusted></Trusted>
       <Ourservice></Ourservice>
       <Marketing></Marketing>
+      <Webdevelopment></Webdevelopment>
     </>
   );
 }
