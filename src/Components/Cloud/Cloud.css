@@ -12,3 +12,6 @@
 .cloud-icon {
   background-color: #5405b4;
 }
+.cloud-btn:hover i {
+  background-color: black;
+}

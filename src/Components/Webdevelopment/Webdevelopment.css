@@ -12,3 +12,6 @@
 .web-icon {
   background-color: #5405b4;
 }
+.web-btn:hover i {
+  background-color: black;
+}

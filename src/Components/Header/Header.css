@@ -20,3 +20,6 @@
 .nav-button-icon {
   background-color: blueviolet;
 }
+.nav-button:hover i {
+  background-color: black;
+}

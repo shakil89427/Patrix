@@ -20,3 +20,6 @@
   );
   color: white;
 }
+.banner-btn:hover i {
+  background-color: black;
+}

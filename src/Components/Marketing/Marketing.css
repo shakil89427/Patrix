@@ -15,3 +15,6 @@
 .marketing-icon {
   background-color: #5405b4;
 }
+.marketing-btn:hover i {
+  background-color: black;
+}

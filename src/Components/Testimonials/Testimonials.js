@@ -37,18 +37,18 @@ const Testimonials = () => {
         <div className="text-center">
           <div className="pb-5 testimonial-p">
             <p className="pt-3 px-2">
-              <i class="fas fa-quote-left"></i>
+              <i className="fas fa-quote-left"></i>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat
               aut consequatur illo animi optio exercitationem doloribus eligendi
               iusto atque repudiandae. Distinctio.
-              <i class="fas fa-quote-right"></i>
+              <i className="fas fa-quote-right"></i>
             </p>
             <p>
-              <i class="fas fa-star"></i>
-              <i class="fas fa-star"></i>
-              <i class="fas fa-star"></i>
-              <i class="fas fa-star"></i>
-              <i class="fas fa-star"></i>
+              <i className="fas fa-star"></i>
+              <i className="fas fa-star"></i>
+              <i className="fas fa-star"></i>
+              <i className="fas fa-star"></i>
+              <i className="fas fa-star"></i>
             </p>
           </div>
           <img
@@ -62,18 +62,18 @@ const Testimonials = () => {
         <div className="text-center">
           <div className="pb-5 testimonial-p">
             <p className="pt-3 px-2">
-              <i class="fas fa-quote-left"></i>
+              <i className="fas fa-quote-left"></i>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat
               aut consequatur illo animi optio exercitationem doloribus eligendi
               iusto atque repudiandae. Distinctio.
-              <i class="fas fa-quote-right"></i>
+              <i className="fas fa-quote-right"></i>
             </p>
             <p>
-              <i class="fas fa-star"></i>
-              <i class="fas fa-star"></i>
-              <i class="fas fa-star"></i>
-              <i class="fas fa-star"></i>
-              <i class="fas fa-star"></i>
+              <i className="fas fa-star"></i>
+              <i className="fas fa-star"></i>
+              <i className="fas fa-star"></i>
+              <i className="fas fa-star"></i>
+              <i className="fas fa-star"></i>
             </p>
           </div>
           <img
@@ -87,18 +87,18 @@ const Testimonials = () => {
         <div className="text-center">
           <div className="pb-5 testimonial-p">
             <p className="pt-3 px-2">
-              <i class="fas fa-quote-left"></i>
+              <i className="fas fa-quote-left"></i>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat
               aut consequatur illo animi optio exercitationem doloribus eligendi
               iusto atque repudiandae. Distinctio.
-              <i class="fas fa-quote-right"></i>
+              <i className="fas fa-quote-right"></i>
             </p>
             <p>
-              <i class="fas fa-star"></i>
-              <i class="fas fa-star"></i>
-              <i class="fas fa-star"></i>
-              <i class="fas fa-star"></i>
-              <i class="fas fa-star"></i>
+              <i className="fas fa-star"></i>
+              <i className="fas fa-star"></i>
+              <i className="fas fa-star"></i>
+              <i className="fas fa-star"></i>
+              <i className="fas fa-star"></i>
             </p>
           </div>
           <img
