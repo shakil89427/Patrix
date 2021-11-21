@@ -1,17 +1,28 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { Col, Container, Row } from "react-bootstrap";
 import service_2 from "../../images/services/service-2.png";
 import "./Webdevelopment.css";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 const Webdevelopment = () => {
+  useEffect(() => {
+    AOS.init({ duration: 2000 });
+  }, []);
   return (
     <div>
-      <Container className="my-5">
+      <Container className="">
         <Row>
-          <Col sm={12} md={6} lg={6}>
+          <Col data-aos="fade-up" sm={12} md={6} lg={6}>
             <img className="img-fluid float-start" src={service_2} alt="" />
           </Col>
-          <Col className="my-auto py-5" sm={12} md={6} lg={6}>
+          <Col
+            data-aos="fade-up"
+            className="my-auto py-5"
+            sm={12}
+            md={6}
+            lg={6}
+          >
             <h1 className="main-color">
               <i className="fas fa-code"></i>
             </h1>

@@ -1,17 +1,23 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { Accordion, Container } from "react-bootstrap";
 import "./Faq.css";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 const Faq = () => {
+  useEffect(() => {
+    AOS.init({ duration: 2000 });
+  }, []);
+
   return (
-    <div id="faq">
+    <div data-aos="fade-up" id="faq">
       <h1 className="text-center fw-bolder mt-3 faq-h1">FAQ</h1>
       <hr className="hr-1" />
       <hr className="hr-2" />
       <h4 className="text-center my-3">
         frequently asked questions, get knowledge befere hand
       </h4>
-      <Container>
+      <Container data-aos="fade-up">
         <Accordion defaultActiveKey="">
           <Accordion.Item className="accordion my-3" eventKey="0">
             <Accordion.Header>What are the main features?</Accordion.Header>

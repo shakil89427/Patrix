@@ -1,10 +1,16 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { Col, Container, Row } from "react-bootstrap";
 import "./Getstarted.css";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 const Getstarted = () => {
+  useEffect(() => {
+    AOS.init({ duration: 2000 });
+  }, []);
+
   return (
-    <div id="contact" className="getstarted-div pb-5">
+    <div data-aos="fade-up" id="contact" className="getstarted-div pb-5">
       <h1 className="getstarted-h1 text-center fw-bolder mt-5">Get Started</h1>
       <hr className="hr-1" />
       <hr className="hr-2" />
@@ -12,7 +18,7 @@ const Getstarted = () => {
         Lorem ipsum, dolor sit amet consectetur adipisicing elit. Libero illum
         architecto modi.
       </p>
-      <Container className="getstarted-container">
+      <Container data-aos="fade-up" className="getstarted-container">
         <Row>
           <Col className="left-side p-5" sm={12} md={6} lg={6}>
             <h1 className="getstarted-h1 fw-bolder">

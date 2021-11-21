@@ -1,14 +1,25 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { Col, Container, Row } from "react-bootstrap";
 import service_1 from "../../images/services/service-1.png";
 import "./Marketing.css";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 const Marketing = () => {
+  useEffect(() => {
+    AOS.init({ duration: 2000 });
+  }, []);
   return (
     <div>
-      <Container className="my-5">
+      <Container className="">
         <Row>
-          <Col className="my-auto py-5" sm={12} md={6} lg={6}>
+          <Col
+            data-aos="fade-up"
+            className="my-auto py-5"
+            sm={12}
+            md={6}
+            lg={6}
+          >
             <h1 className="main-color">
               <i className="fas fa-location-arrow"></i>
             </h1>
@@ -23,7 +34,7 @@ const Marketing = () => {
               <i className="marketing-icon text-white ms-4 p-2 rounded-circle fas fa-arrow-right"></i>
             </button>
           </Col>
-          <Col sm={12} md={6} lg={6}>
+          <Col data-aos="fade-up" sm={12} md={6} lg={6}>
             <img className="img-fluid float-end" src={service_1} alt="" />
           </Col>
         </Row>

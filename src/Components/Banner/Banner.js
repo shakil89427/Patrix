@@ -1,12 +1,24 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { Col, Container, Row } from "react-bootstrap";
 import logo from "../../images/arts/intro-section-illustration.png";
 import "./Banner.css";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 const Banner = () => {
+  useEffect(() => {
+    AOS.init({ duration: 2000 });
+  }, []);
+
   return (
     <>
-      <div id="home" className="banner-bg pt-4">
+      <div
+        data-aos="fade-down"
+        data-aos-easing="linear"
+        data-aos-duration="1000"
+        id="home"
+        className="banner-bg pt-4"
+      >
         <Container>
           <Row>
             <Col className="text-white my-auto py-4" sm={12} md={6} lg={6}>

@@ -1,14 +1,20 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { Col, Container, Row } from "react-bootstrap";
 import "./Footer.css";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 const Footer = () => {
+  useEffect(() => {
+    AOS.init({ duration: 2000 });
+  }, []);
+
   const flexStyleTop =
     "my-3 d-flex align-items-center justify-content-sm-start justify-content-md-center  justify-content-lg-center";
 
   return (
     <div className="footer-bg">
-      <Container>
+      <Container data-aos="fade-up">
         <Row className="text-white contact-row">
           <Col className={flexStyleTop} sm={12} md={4} lg={4}>
             <i className="me-3 fas fa-phone-alt"></i>
@@ -33,7 +39,10 @@ const Footer = () => {
           </Col>
         </Row>
       </Container>
-      <div className="connect py-4 d-flex flex-column align-items-center justify-content-center">
+      <div
+        data-aos="fade-up"
+        className="connect py-4 d-flex flex-column align-items-center justify-content-center"
+      >
         <p className="text-white mb-2">Connect with us on social media</p>
         <p className="connect-icon">
           <i className="fab fa-facebook"></i>
@@ -44,7 +53,7 @@ const Footer = () => {
         </p>
       </div>
       <div className="footer-details">
-        <Container>
+        <Container data-aos="fade-up">
           <Row className="pt-4 text-white">
             <Col className="mb-4 pe-5" sm={12} md={6} lg={6}>
               <h4>Campany Name</h4>
