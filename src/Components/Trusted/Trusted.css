@@ -14,12 +14,12 @@
   box-shadow: 0px 5px 10px 0px rgba(222, 196, 196, 0.75);
   -webkit-box-shadow: 0px 5px 10px 0px rgba(222, 196, 196, 0.75);
   -moz-box-shadow: 0px 5px 10px 0px rgba(222, 196, 196, 0.75);
-  margin-top: 5px;
 }
 .trusted-img {
   height: 60px;
   width: 200px;
   padding: 10px 20px;
+  margin: 5px;
 }
 .trusted-img:hover {
   filter: grayscale(100%);

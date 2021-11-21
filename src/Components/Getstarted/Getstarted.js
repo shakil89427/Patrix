@@ -12,7 +12,7 @@ const Getstarted = () => {
         Lorem ipsum, dolor sit amet consectetur adipisicing elit. Libero illum
         architecto modi.
       </p>
-      <Container>
+      <Container className="getstarted-container">
         <Row>
           <Col className="left-side p-5" sm={12} md={6} lg={6}>
             <h1 className="getstarted-h1 fw-bolder">
@@ -34,14 +34,43 @@ const Getstarted = () => {
               <i className="me-2 fas fa-check"></i>let's start the discussion.
             </p>
           </Col>
-          <Col sm={12} md={6} lg={6}>
-            <h2 className="gettingstarted-h2 p-5">Start Your Project</h2>
+          <Col className="bg-white p-5" sm={12} md={6} lg={6}>
+            <h2 className="gettingstarted-h2">Start Your Project</h2>
             <form>
-              <input className="input-right" type="text" />
-              <input className="input-right" type="text" />
-              <br />
-              <input type="text" />
+              <Row className="text-center">
+                <Col className="mb-3" sm={12} md={6} lg={6}>
+                  <input
+                    className="getstarted-input"
+                    placeholder="First Name"
+                    type="text"
+                  />
+                </Col>
+                <Col className="mb-3" sm={12} md={6} lg={6}>
+                  <input
+                    className="getstarted-input"
+                    placeholder="Last Name"
+                    type="text"
+                  />
+                </Col>
+                <Col className="mb-3" sm={12} md={12} lg={12}>
+                  <input
+                    className="getstarted-input"
+                    placeholder="Your Email"
+                    type="text"
+                  />
+                </Col>
+                <Col className="mb-3" sm={12} md={12} lg={12}>
+                  <textarea
+                    className="getstarted-input"
+                    placeholder="Message"
+                    rows="7"
+                  ></textarea>
+                </Col>
+              </Row>
             </form>
+            <button className="getstarted-btn">
+              Submit<i className="ms-1 fas fa-location-arrow"></i>
+            </button>
           </Col>
         </Row>
       </Container>
