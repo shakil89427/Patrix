@@ -1,0 +1,31 @@
+.footer-bg {
+  background-color: black;
+}
+.contact-row i {
+  color: rgb(135, 42, 241);
+  font-size: 3em;
+}
+.contact-row h5,
+p {
+  margin: 0;
+}
+.contact-row h5:hover {
+  color: rgb(135, 42, 241);
+}
+.connect {
+  background-color: rgb(49, 48, 48);
+}
+.connect-icon i {
+  color: white;
+  margin: 5px;
+  font-size: 2rem;
+}
+.connect-icon i:hover {
+  color: rgb(135, 42, 241);
+}
+.footer-details {
+  background-color: rgba(59, 59, 59, 0.425);
+}
+.footer-details p:hover {
+  color: rgb(135, 42, 241);
+}

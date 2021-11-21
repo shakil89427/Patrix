@@ -6,11 +6,11 @@ import "./Banner.css";
 const Banner = () => {
   return (
     <>
-      <div className="banner-bg pt-4">
+      <div id="home" className="banner-bg pt-4">
         <Container>
           <Row>
             <Col className="text-white my-auto py-4" sm={12} md={6} lg={6}>
-              <h1 className="banner-h1 mb-4">Hey!, I'm Patrick</h1>
+              <h1 className="banner-h1 mb-4">Hey!, I'm ******</h1>
               <h5>
                 this is a multi-purpose responsive layout created with bootstrap
                 v5. (here your can place your description text)

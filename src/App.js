@@ -9,6 +9,7 @@ import Cloud from "./Components/Cloud/Cloud";
 import Faq from "./Components/Faq/Faq";
 import Testimonials from "./Components/Testimonials/Testimonials";
 import Getstarted from "./Components/Getstarted/Getstarted";
+import Footer from "./Components/Footer/Footer";
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
       <Testimonials></Testimonials>
       <Faq></Faq>
       <Getstarted></Getstarted>
+      <Footer></Footer>
     </>
   );
 }

@@ -20,8 +20,8 @@ const Testimonials = () => {
     slidesToScroll: 1,
   };
   return (
-    <div className="testimonial-div">
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+    <div id="testimonials" className="testimonial-div">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 250">
         <path
           fill="#ffffff"
           fillOpacity="1"
@@ -110,7 +110,7 @@ const Testimonials = () => {
           <h6 className="text-white">Global Brand Manager</h6>
         </div>
       </Slider>
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 250">
         <path
           fill="#ffffff"
           fillOpacity="1"

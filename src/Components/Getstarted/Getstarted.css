@@ -37,6 +37,9 @@
   -webkit-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
   -moz-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
 }
+.getstarted-input:focus {
+  border: 1px solid rgb(135, 42, 241);
+}
 .getstarted-btn {
   width: 100%;
   padding: 15px;

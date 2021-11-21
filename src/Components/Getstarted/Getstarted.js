@@ -4,7 +4,7 @@ import "./Getstarted.css";
 
 const Getstarted = () => {
   return (
-    <div className="getstarted-div">
+    <div id="contact" className="getstarted-div pb-5">
       <h1 className="getstarted-h1 text-center fw-bolder mt-5">Get Started</h1>
       <hr className="hr-1" />
       <hr className="hr-2" />
@@ -56,7 +56,7 @@ const Getstarted = () => {
                   <input
                     className="getstarted-input"
                     placeholder="Your Email"
-                    type="text"
+                    type="email"
                   />
                 </Col>
                 <Col className="mb-3" sm={12} md={12} lg={12}>
