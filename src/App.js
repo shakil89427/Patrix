@@ -10,6 +10,7 @@ import Faq from "./Components/Faq/Faq";
 import Testimonials from "./Components/Testimonials/Testimonials";
 import Getstarted from "./Components/Getstarted/Getstarted";
 import Footer from "./Components/Footer/Footer";
+import BackTop from "./Components/BackTop/BackTop";
 
 function App() {
   return (
@@ -25,6 +26,7 @@ function App() {
       <Faq></Faq>
       <Getstarted></Getstarted>
       <Footer></Footer>
+      <BackTop></BackTop>
     </>
   );
 }
