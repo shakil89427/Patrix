@@ -1,0 +1,22 @@
+.getstarted-div {
+  background-color: rgba(169, 169, 169, 0.288);
+}
+.getstarted-h1 {
+  font-size: 4em;
+}
+.left-side {
+  background-image: linear-gradient(
+    to right,
+    rgb(135, 42, 241),
+    rgb(233, 8, 184)
+  );
+  color: white;
+}
+.gettingstarted-h2 {
+  background: #121fcf;
+  background: -webkit-linear-gradient(to right, #121fcf 0%, #cf1512 100%);
+  background: -moz-linear-gradient(to right, #121fcf 0%, #cf1512 100%);
+  background: linear-gradient(to right, #121fcf 0%, #cf1512 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}

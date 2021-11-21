@@ -12,7 +12,10 @@ const Testimonials = () => {
     dots: false,
     arrows: false,
     infinite: true,
-    speed: 500,
+    pauseonhover: true,
+    centermode: true,
+    autoplay: true,
+    speed: 1000,
     slidesToShow: 1,
     slidesToScroll: 1,
   };

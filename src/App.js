@@ -8,6 +8,7 @@ import Webdevelopment from "./Components/Webdevelopment/Webdevelopment";
 import Cloud from "./Components/Cloud/Cloud";
 import Faq from "./Components/Faq/Faq";
 import Testimonials from "./Components/Testimonials/Testimonials";
+import Getstarted from "./Components/Getstarted/Getstarted";
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
       <Cloud></Cloud>
       <Testimonials></Testimonials>
       <Faq></Faq>
+      <Getstarted></Getstarted>
     </>
   );
 }

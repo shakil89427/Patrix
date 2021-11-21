@@ -5,7 +5,7 @@ import "./Faq.css";
 const Faq = () => {
   return (
     <div>
-      <h1 className="text-center fw-bolder mt-5 faq-h1">FAQ</h1>
+      <h1 className="text-center fw-bolder mt-3 faq-h1">FAQ</h1>
       <hr className="hr-1" />
       <hr className="hr-2" />
       <h4 className="text-center my-3">
