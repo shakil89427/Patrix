@@ -12,7 +12,7 @@ const Faq = () => {
         frequently asked questions, get knowledge befere hand
       </h4>
       <Container>
-        <Accordion defaultActiveKey="0">
+        <Accordion defaultActiveKey="">
           <Accordion.Item className="accordion my-3" eventKey="0">
             <Accordion.Header>What are the main features?</Accordion.Header>
             <Accordion.Body>

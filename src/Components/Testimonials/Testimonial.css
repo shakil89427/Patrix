@@ -1,0 +1,24 @@
+.testimonial-div {
+  background-image: linear-gradient(
+    to right,
+    rgb(135, 42, 241),
+    rgb(233, 8, 184)
+  );
+}
+.testimonial i {
+  color: rgb(85, 8, 187);
+  margin: 0 2px;
+}
+.testimonial-h1 {
+  font-size: 4em;
+}
+.testimonial-p {
+  background-color: rgba(253, 253, 250, 0.801);
+  border-radius: 10px;
+}
+.testimonial-img {
+  height: 100px;
+  width: 100px;
+  margin-top: -50px;
+  border: 3px solid rgba(220, 10, 248, 0.589);
+}
