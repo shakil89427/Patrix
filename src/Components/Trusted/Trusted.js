@@ -16,8 +16,10 @@ const Trusted = () => {
   }, []);
 
   return (
-    <div data-aos="fade-up">
-      <h4 className="text-center mb-3">Trusted by campanies like</h4>
+    <div>
+      <h4 data-aos="fade-up" className="text-center mb-3">
+        Trusted by campanies like
+      </h4>
       <hr className="hr-1" />
       <hr className="hr-2" />
       <Container className=" my-5 pb-5 mx-auto">
