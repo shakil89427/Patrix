@@ -16,4 +16,4 @@ Html5,Css3,React,React Bootstrap,React Slick,React AOS
 
 ### Live Site Link
 
-[Portfolio-247](https://portfolio-247.netlify.app/)
+[Patrix-247](https://patrix247.netlify.app/)
