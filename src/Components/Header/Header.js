@@ -5,17 +5,14 @@ import "./Header.css";
 
 const Header = () => {
   return (
-    <Navbar collapseOnSelect expand="lg" className="navbar">
+    <Navbar id="top" collapseOnSelect expand="lg" className="navbar">
       <Container>
-        <Navbar.Brand href="#home">
+        <Navbar.Brand>
           <img src={logo} alt="" />
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse className="text-center" id="responsive-navbar-nav">
           <Nav className="ms-auto d-flex flex-sm-row align-items-center">
-            <Nav.Link className="text-white fw-bolder me-2" href="#home">
-              Home
-            </Nav.Link>
             <Nav.Link className="text-white fw-bolder me-2" href="#services">
               Services
             </Nav.Link>

@@ -4,10 +4,7 @@
     rgb(135, 42, 241),
     rgb(233, 8, 184)
   );
-  box-shadow: 0 1px 10px;
-  z-index: 999;
-  position: sticky;
-  top: 0;
+  z-index: 1;
 }
 .nav-button:hover {
   background-image: linear-gradient(

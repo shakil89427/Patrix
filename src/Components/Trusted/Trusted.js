@@ -12,7 +12,7 @@ import company_6 from "../../images/campanies/campany-6.png";
 
 const Trusted = () => {
   useEffect(() => {
-    AOS.init({ duration: 2000 });
+    AOS.init({ duration: 1000 });
   }, []);
 
   return (

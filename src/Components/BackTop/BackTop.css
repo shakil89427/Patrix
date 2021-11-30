@@ -1,9 +1,15 @@
 .top {
   position: fixed;
-  bottom: 30px;
-  right: 30px;
+  bottom: 15px;
+  right: 15px;
   text-decoration: none;
+  background-color: rgb(135, 42, 241);
+  border-radius: 50%;
+  color: white;
+}
+.top:hover {
+  color: white;
 }
 .top i {
-  font-size: 3em;
+  padding: 10px;
 }
