@@ -32,7 +32,7 @@ const Ourservice = () => {
             <Col
               data-aos="fade-up"
               className="text-center p-3"
-              sm={4}
+              sm={12}
               md={12}
               lg={6}
             >
